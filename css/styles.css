@@ -1,3 +1,17 @@
+body{
+    font-family:'Montserrat',sans-serif;
+}
+.navbar{
+    padding-bottom: 3.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
 .title{
     background-color: #ff4c68;
 }
@@ -7,6 +21,14 @@ h1{
     font-weight: bold;
     line-height: 1.45;
 }
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
 .container-fluid{
     padding: 3% 15%;
+}
+
+.btn-download{
+    margin: 5% 3% 5% 0%;
 }
